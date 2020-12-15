@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.sbody {
+    font-family: 'B612', sans-serif;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(32deg, rgba(235, 160, 151, 1) 0%, rgba(236, 118, 104, 1) 87%);
+}
+
+.boxr {
+    width: 100%;
+    height: 94vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.main_classr {
+    width: 500px;
+    height: 540px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+    top: 56%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.headingr {
+    color: black;
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    top: 1%;
+    text-transform: uppercase;
+}
+
+.formreg {
+    top: 2%;
+    position: relative;
+    text-align: center;
+}
+
+.inputreg {
+    width: 50%;
+    padding: 4px 10px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+
+.labelr {
+    float: left;
+    width: 11em;
+    margin-right: -3em;
+    right: 10%;
+}
+
+.btnreg {
+
+    width: 50%;
+    background-color: rgba(236, 118, 104, 1);
+    color: white;
+    padding: 14px 20px;
+    margin: 14px 26px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnreg:hover {
+    transition: .5s;
+    border: 1px solid rgba(236, 118, 104, 1);
+    background-color: rgba(236, 118, 104, 1);
+}
+
+.anchreg {
+    display: inline;
+}
+
+/* CSS for MOBILE */
+
+@media (max-width: 768px) {
+  .boxr {
+    width: 100%;
+    height: 110vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+    .main_classr {
+        width: 75%;
+        height: 580px;
+        position: absolute;
+        background-color: white;
+        box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+        top: 63%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .formreg {
+        position: relative;
+        text-align: center;
+    }
+
+    .inputreg {
+        width: 55%;
+        padding: 5px 10px;
+        margin: 5px 0;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+
+    .labelr {
+        margin-top: 10px;
+        float: left;
+        width: 10em;
+        margin-right: -2em;
+        right: 5%;
+    }
+
+}
+
+
+
+/* body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    font-family: SFS, Arial, sans-serif;
+    background-color: #F4F6F9;
+  }
+  .scontainer{
+      width: 100%;
+      height: auto;
+      background: none;
+  }
+  .sleft{
+      background-color: black;
+      float: left;
+      width:50%;
+      height:130vh;
+      text-align: center;
+  }
+  .sright{
+      width: 50%;
+      float: right;
+  }
+  .left_h2{
+    margin-top: 100px;
+    color: whitesmoke;
+    font-style: oblique;
+  }
+  .simg{
+    height: 40vh;
+    margin-left: 33%;
+    margin-top: -40px;
+    margin-bottom: -60px;
+  }
+  .spage{
+      margin-bottom: 0px;
+      margin-left: 25%;
+      max-width: 342px;
+      transition: all 0.25s ease 0s;
+      background-color: white;
+  }
+  .sform{
+    width: 300px;
+    height: auto;
+    color: rgb(22, 50, 92);
+    margin: 0px auto;
+    padding: 1.25rem;
+    border-radius: 0.25rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 221, 230);
+    border-image: initial;
+  }
+  .sfont{
+    font-size: 14px;
+    color: rgb(84, 105, 141);
+    line-height: inherit;
+    margin: 0px 0px 8px;
+  }
+  .sinput{
+      margin-top: 5px;
+      width: 300px;
+      height: 5.5vh;
+      background-color: rgb(255, 255, 255);
+      font-family: SFS, Arial, sans-serif;
+      box-sizing: border-box;
+      -webkit-appearance: none;
+      font-size: 0.8125rem;
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(216, 221, 230);
+      border-radius: 4px;
+      transition: all 0.1s ease 0s;
+      cursor: pointer;
+
+      box-shadow: 0px 0px 0px 0px;
+      transition-property: width,height,box-shadow;
+      transition-duration: 1s;
+      transition-timing-function: linear;
+    } 
+    .sinput:hover{
+      width: 305px;
+      height: 5.5vh;
+      box-shadow: 2px 1px 3px 2px goldenrod;
+  }
+  .idinput{
+    margin-top: 5px;
+    width: 50px;
+    height: 5.5vh;
+    background-color: rgb(255, 255, 255);
+    font-family: SFS, Arial, sans-serif;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+    font-size: 0.8125rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 221, 230);
+    border-radius: 4px;
+    transition: all 0.1s ease 0s;
+    cursor: pointer;
+  } 
+  .binput{
+    width: 30px;
+    height: 4vh;
+    background-color: rgb(31, 34, 22);
+    color: white;
+    
+  }
+  .sbutton{  
+    width: 300px;
+    height: 5.5vh;
+    margin-top: 15px;
+    background-color: rgb(31, 34, 22);
+    color: white;
+    transition: all 0.1s ease 0s;
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    border-image: initial;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 0px ;
+    transition-property: width,height,box-shadow;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  } 
+  .sellbutton{  
+    width: 150px;
+    height: 4.5vh;
+    margin-top: 15px;
+    background-color: rgb(31, 34, 22);
+    color: white;
+  } 
+
+
+.sbutton:hover{
+  width: 305px;
+  height: 5.6vh;
+  box-shadow: 2px 1px 3px 2px goldenrod;
+}
+  
+  .scheckbox{
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  .slink{
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    color: black;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+  }
+  .slink:hover{
+    color: goldenrod;
+    font-size: 13.5px;
+  }
+
+.slink1{
+    margin-top: 15px;
+    font-size: 13px;
+    cursor: pointer;
+    text-decoration: none;
+    float: right;
+    color: black;
+    transition-property: font-size ;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+.slink1:hover{
+    font-size: 13.4px;
+    color: goldenrod;
+}
+   */

@@ -1,0 +1,33 @@
+{
+  "name": "majorproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "stockmanager": "cd stockmanager && npm start",
+    "node": "cd node && npm start",
+    "start": "concurrently 'npm:node' 'npm:stockmanager' "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^5.2.0"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.1",
+    "axios": "^0.19.2",
+    "express-session": "^1.17.1",
+    "i": "^0.3.6",
+    "moment": "^2.27.0",
+    "node-localstorage": "^2.1.6",
+    "nodemailer": "^6.4.11",
+    "notifications": "^0.2.0",
+    "react-confirm-alert": "^2.6.2",
+    "react-datetime": "^3.0.4",
+    "react-notifications": "^1.6.0",
+    "react-to-print": "^2.10.0",
+    "sum-of-two-numbers": "^1.0.0",
+    "uid": "^1.0.0"
+  }
+}

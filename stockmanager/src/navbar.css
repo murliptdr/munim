@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'B612';
+    text-decoration: none;
+}
+
+.navlogo {
+    margin-top: 5px;
+    margin-left: 100px;
+    width: 120px;
+    height: 40px;
+}
+
+nav {
+    background-color: transparent;
+    height: 50px;
+    width: 100%;
+    box-shadow: 0px 11px 19px -8px rgba(0, 0, 0, 0.75);
+}
+
+nav ul {
+    float: right;
+    margin-right: 100px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 30px;
+}
+
+.litext {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.litext:hover {
+    transition: .3s;
+    color: white
+}
+
+/* CSS for mobile */
+
+@media (max-width : 768px) {
+    .navlogo {
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 80px;
+        height: 20px;
+    }
+
+    nav ul {
+        float: right;
+        margin-right: 25px;
+    }
+
+    nav ul li {
+        display: inline-block;
+        line-height: 20px;
+        margin: 15px 10px;
+    }
+
+    .litext {
+        color: black;
+        font-size: 15px;
+        text-transform: uppercase;
+    }
+}

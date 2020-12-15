@@ -1,0 +1,68 @@
+
+body{
+    background-color: rgba(236, 118, 104, 1);
+width: 100%;
+}
+
+.searchbar{
+    margin: 20px;
+    position: relative;
+    padding-left: 10%;
+}
+.labelsearch{
+    font-size: 25px;
+}
+.searchinput[type=text] {
+    width: 60%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+
+.lcard {
+    color:white;
+    align-content: center;
+    border: solid white .5px;
+    border-radius: 12px;
+    width: 245px;
+    height: 330px;
+    float: left;
+    flex-direction: row;
+    padding: 15px 30px;
+    margin: 10px 10px;
+    justify-content: space-around;
+}
+.lcard:hover {
+    transform: scale(1.05, 1.05);
+    transition: .5s;
+    background-color: white;
+    color: black;
+    
+}
+
+.lcard_pic {
+    width: 100%;
+    height: 25vh;
+    align-items: center;
+}
+
+.lcard_info {
+    text-align: center;
+}
+
+lcard:hover {
+    transition: 2s;
+    border: solid black 2px;
+}
+
+.lcard_title {
+    text-align: center;
+}
+.lcard_title span {
+    color: rgba(236, 118, 104, 1);
+}
+
+

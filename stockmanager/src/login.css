@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=B612&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.lbody {
+    font-family: 'B612';
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: linear-gradient(32deg, rgba(235, 160, 151, 1) 0%, rgba(236, 118, 104, 1) 87%);
+}
+
+.box {
+    width: 100%;
+    height: 91vh;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.logoimg {
+    position: relative;
+    top: 20%;
+    left: 13%;
+    float: left;
+    width: 250px;
+    height: 20vh;
+
+}
+.tag{
+    position: relative;
+    top: 50%;
+    right: 200px;
+    width: 580px;
+    height: 71px;
+    text-align: left;
+    font-family: 'B612';
+    color: rgb(54, 38, 38);
+    float: left;
+}
+
+
+.main_class {
+    width: 480px;
+    height: 480px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+    top: 54%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+}
+
+.fmain_class {
+    width: 480px;
+    height: 350px;
+    position: absolute;
+    background-color: white;
+    box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+}
+.headinglogin {
+    color: black;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    top: 8%;
+    text-transform: uppercase;
+}
+
+.heading {
+    color: black;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    top: 8%;
+    right: -50px;
+    text-transform: uppercase;
+}
+
+.form_c {
+    top: 15%;
+    position: relative;
+    text-align: center;
+}
+
+.inputlgn {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.btnboxlgn {
+    /* display: inline; */
+    width: 175px;
+    background-color: rgba(236, 118, 104, 1);
+    color: white;
+    padding: 14px 20px;
+    margin: 17px 26px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnboxlgn:hover {
+    transition: .5s;
+    border: 1px solid rgba(236, 118, 104, 1);
+    background-color: rgba(236, 118, 104, 1);
+}
+
+.labelgn {
+    float: left;
+    width: 11em;
+    margin-right: 2em;
+    right: 10%;
+}
+
+.anch {
+    display: inline;
+}
+
+/* CSS for mobile */
+
+@media screen and (max-width:768px) {
+
+  
+    .box {
+        width: 100%;
+        height: 91vh;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+    .logoimg {
+        visibility: hidden;
+    }
+    .tag{
+        visibility: hidden;
+    }
+
+    .main_class {
+        width: 70%;
+        height: 85vh;
+        position: absolute;
+        background-color: white;
+        box-shadow: 6px 9px 22px 10px rgba(0, 0, 0, 0.20);
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .anch {
+        display: inline;
+        font-size: 15px;
+    }
+    .btnboxlgn {
+        /* display: inline; */
+        width: 285px;
+        background-color: rgba(236, 118, 104, 1);
+        color: white;
+        padding: 10px 20px;
+        margin: 10px 25px;
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .labelgn {
+        float: left;
+        width: 10em;
+        font-size: 20px;  
+      }
+      .inputlgn {
+        width: 75%;
+        padding: 15px 7px;
+        margin: 10px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+}

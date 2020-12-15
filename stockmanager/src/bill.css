@@ -1,0 +1,85 @@
+#invoice-POS{
+  box-shadow: 0 0 1in -0.25in rgba(0, 0, 0, 0.5);
+  padding:2mm;
+  margin: 0 auto;
+  width: 240mm;
+  background:#FFF;
+}
+/* .bkgrd{
+  background-image: url('/img/billlogo.jpeg');
+  background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+
+} */
+  
+::selection {background: #f31544; color: #FFF;}
+::moz-selection {background: #f31544; color: #FFF;}
+
+.h2bill{font-size: 1.5em;}
+
+.pbill{
+  font-size: 1em;
+  color: #666;
+  line-height: 1.3em;
+}
+ 
+#top, #mid,#bot{
+  border-bottom: 1px solid #EEE;
+}
+
+#top{min-height: 100px;}
+#mid{min-height: 95;} 
+#bot{ min-height: 50px;}
+
+#top .logo{
+	height: 60px;
+	width: 60px;
+	background: url(http://michaeltruong.ca/images/logo1.png) no-repeat;
+	background-size: 60px 60px;
+}
+.clientlogo{
+  float: left;
+	height: 60px;
+	width: 60px;
+	background: url(http://michaeltruong.ca/images/client.jpg) no-repeat;
+	background-size: 60px 60px;
+  border-radius: 50px;
+}
+.info{
+  display: block;
+  margin-left: 0;
+}
+.title{
+  float: right;
+}
+.title p{text-align: right;} 
+.tablebill{
+  width: 100%;
+  border-collapse: collapse;
+}
+td{
+   padding: 5px 0 5px 15px;
+  border: 1px solid #EEE 
+}
+.tabletitle{
+  font-size: .75em;
+  background: #EEE;
+}
+.service{border-bottom: 1px solid #EEE;}
+.item{width: 130mm;}
+.itemtext{font-size: 1.1em;}
+
+#legalcopy{
+    text-align: center;
+  margin-top: 10mm;
+}
+.printbotton{
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+  
+  
