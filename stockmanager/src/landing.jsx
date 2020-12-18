@@ -51,7 +51,6 @@ class Landing extends Component{
             <NavBar />
             <div className="searchbar">
                 <form  noValidate autoComplete="off">
-                    {/* <TextField id="standard-basic" label="Search" onChange={this.search}/> */}
                      <label className="labelsearch">Search Product</label><br/>
                      <input className="searchinput" type="text"  onChange={this.search}/>         
                 </form>

@@ -73,12 +73,6 @@ import moment from "moment";
             <td >{person.date}</td>
             <td >{person.time}</td>
 
-            {/* <td>
-               <form onSubmit={this.deleteSubmit}>
-               <input className="" type="submit" value="SELL" />
-              </form>
-              
-            </td> */}
             </tr>
         )
         }

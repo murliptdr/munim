@@ -11,7 +11,12 @@
     margin-top: -40px;
     text-transform: capitalize;
 }
-
+.btnquantity{
+  width: 25px;
+  color: black;
+  font-size: 15px;
+  font-style: bold;
+}
 .menu_logo {
   margin-left: 27px;
   width: 200px;
@@ -55,6 +60,60 @@
   overflow-x: hidden;
   transition: all .5s;
   color: red;
+}
+.notifyadd{
+  position: fixed;
+    right: 0px;
+    height: 50%;
+    width: 0px;
+    top: 165px;
+  background-color: white;
+  z-index: 1;
+  overflow-x: hidden;
+  color: red;
+}
+.updateprice{
+  position: fixed;
+    right: 36%;
+    height: 57%;
+    width: 0px;
+    top: 165px;
+    border-radius: 4px;
+  background-color: white;
+  z-index: 1;
+  overflow-x: hidden;
+  color: red;
+}
+.carticon{
+  text-decoration: none;
+  position: relative;
+  float: right;
+  margin-top: -70px;
+  color: black;
+  font-size: 50px;
+  right: 100px;
+}
+.itemcart{
+  position: fixed;
+    right: 0%;
+    height: 90vh;
+    width: 0px;
+    top: 95px;
+    border-radius: 4px;
+  background-color: white;
+  z-index: 1;
+  overflow-x: hidden;
+  color: red;
+}
+.cartbadge{
+  position: absolute;
+    /* top: -16px; */
+    right: 18px;
+    top: 18px;
+    /* border-radius: 50%; */
+    /* background-color: lightcoral; */
+    color:  rgba(236, 118, 104, 1);
+    font-size: 15px;
 }
 .head{
   color: #353535;
@@ -286,7 +345,10 @@
     /* margin-left: 21%; */
     font-size: 25px;
   }
-
+.carttable{
+  font-size: 18px;
+  color: black;
+}
   table {
     margin: auto;
     font-family: "Lucida Sans Unicode", "Lucida Grande", "Segoe Ui";

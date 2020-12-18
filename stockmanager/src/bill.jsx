@@ -37,12 +37,11 @@ class Print extends React.Component {
    var date = new Date().toJSON().slice(0,10);
     return (
   <div id="invoice-POS"  >
-      {/* <div className="bkgrd"> */}
       <div class="logo"></div>
 
   <center id="top">
     <div class="info"> 
-      <h2 className="h2bill">{this.shopname}</h2>
+      <br/><h2 className="h2bill">{this.shopname}</h2>
     </div>
   </center>
   <div id="mid">
@@ -76,7 +75,6 @@ class Print extends React.Component {
               <td class="Hours"><h2>Price</h2></td>
               <td class="Rate"><h2>Sub Total</h2></td>
             </tr>
-            {/* { this.state.persons.map((person,idx) =>  */}
             { filtered.map((person,idx) => 
             <tr class="service">
               <td class="tableitem"><p class="itemtext">{person.product_name}</p></td>
@@ -86,12 +84,7 @@ class Print extends React.Component {
             </tr>
             )
         }
-            {/* <tr class="service">
-              <td class="tableitem"><p class="itemtext">Amul Cow Ghee 1.00 Ltr Tin</p></td>
-              <td class="tableitem"><p class="itemtext">2</p></td>
-              <td class="tableitem"><p class="itemtext">500</p></td>
-              <td class="tableitem"><p class="itemtext">1000</p></td>
-            </tr> */}
+            
             <tr class="tabletitle">
               <td></td>
               <td></td>
@@ -109,7 +102,6 @@ class Print extends React.Component {
       </div>
 
 </div>
-// </div>
 
     );
   }
@@ -129,9 +121,7 @@ class Bill extends React.Component {
 
         <ReactToPrint
           trigger={() => {
-            // NOTE: could just as easily return <SomeComponent />. Do NOT pass an `onClick` prop
-            // to the root node of the returned component as it will be overwritten.
-            return <a href="#">Print this out!</a>;
+         return <a href="#">Print this out!</a>;
           }}
           content={() => this.componentRef}
         />
