@@ -1,11 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import { useHistory, Link } from 'react-router-dom';
-import Main from "./main";
 import MediaCard from "./card";
 import NavBar from './Navbar';
-import TextField from '@material-ui/core/TextField';
-
 
 
 class Landing extends Component{
@@ -32,11 +28,6 @@ class Landing extends Component{
         search = e => {
           this.setState({search : e.target.value});
         }
-
-      
-      edit = (persons) =>{
-
-      }
       
 
    render()

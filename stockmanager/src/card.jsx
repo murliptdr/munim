@@ -1,9 +1,7 @@
 
 import React from 'react';
-import NavBar from './Navbar';
 import './landing.css';
 import { makeStyles } from '@material-ui/core/styles';
-import TextField from '@material-ui/core/TextField';
 
 const useStyles = makeStyles((theme) => ({
     root: {

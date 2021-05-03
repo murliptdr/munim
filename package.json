@@ -1,5 +1,5 @@
 {
-  "name": "majorproject",
+  "name": "munim",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^5.3.0"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.1",

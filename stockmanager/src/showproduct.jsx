@@ -241,7 +241,7 @@ class Showproduct extends Component {
         </a>
         <center>
           <div className="App">
-            <h1>PRODUCTS</h1>
+            <h1 className='pageheading'>PRODUCTS</h1>
 
 
             <div className="">
@@ -283,17 +283,17 @@ class Showproduct extends Component {
                           }));
                         }
                       }}>
-                        <button >Add to cart</button>
+                        <button className="sellbtn" >Add to cart</button>
                       </div>
                     </td>
                     <td>
                       <div onClick={() => { this.setState({ product_name: person.product_name, previousprice: person.price }) }}>
-                        <button onClick={this.updateprice}>Update Price</button>
+                        <button className="sellbtn" onClick={this.updateprice}>Update Price</button>
                       </div>
                     </td>
                     <td>
                       <div onClick={() => { this.setState({ product_name: person.product_name }) }}>
-                        <button onClick={this.addstock}>Add Stock</button>
+                        <button className="sellbtn" onClick={this.addstock}>Add Stock</button>
                       </div>
                     </td>
                   </tr>
@@ -382,7 +382,7 @@ class Showproduct extends Component {
                   <tfoot>
                   </tfoot>
                 </table>
-                <div className="card-footer text-center"> <button type="submit" onClick={this.sellcart} className="sellbutton">Submit</button></div>
+                <div className="card-footer text-center"> <button type="submit" onClick={this.sellcart} className="sellbutton">Sell</button></div>
                 <div className="col-sm-1">
                 </div>
                 <button className="sellbutton" href="javascript:void(0)" onClick={this.closecart} >Cancel</button>

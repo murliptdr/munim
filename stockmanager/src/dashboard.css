@@ -221,6 +221,16 @@
     color:  rgba(236, 118, 104, 1);
     font-size: 20px;
 }
+.sellbtn{
+  background-color: rgb(126, 126, 235);
+  border-radius: 3px;
+  height: 4vh;
+  width: 90px;
+  color: black;
+}
+.pageheading{
+  padding-left: 105px;
+}
  
 
  @media screen and (max-width:768px) {

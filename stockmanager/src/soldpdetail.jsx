@@ -37,7 +37,7 @@ import Main from "./main";
       <Main/>
       <center>
     <div className="App">
-    <h1 >SOLD PRODUCTS DETAILS</h1>
+    <h1 className='pageheading'>SOLD PRODUCTS DETAILS</h1>
 
        <div className="">
        <input placeholder="Search Product/bill"  icon="search" onChange={this.search}/>
